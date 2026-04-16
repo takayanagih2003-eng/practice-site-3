@@ -1,0 +1,172 @@
+body {
+  margin: 0;
+  font-family: "Hiragino Kaku Gothic ProN";
+}
+.header {
+    background-color :#181717;
+    padding:15px 0;
+}
+.container {
+    width:100%;
+    margin:0 auto;
+}
+.header .container {
+    display:flex;
+    justify-content :space-between;
+    align-items:center;
+}
+.header__logo {
+    margin-left :40px;
+    margin-right:250px;
+    width:100px;
+}
+.header__logo img {
+    width:100%;
+    height:auto;
+    display:block;
+}
+.header__nav {
+    display:inline-block;
+    padding:10px 20px;
+    border-radius:15px;
+    border:2px solid #591459;
+    text-decoration:none;
+    color:white;
+    margin:15px 60px 15px 0px;
+}
+
+.header__nav:hover{
+    background-color:rgb(65, 65, 65);
+}
+.hero__img  img{
+    display:block;
+    padding:0 5px;
+    height:400px;
+    object-fit:cover;
+    width:100%;
+
+}
+.hero {
+    background-color:#181717;
+}
+.hero .container {
+    width:1100px;
+}
+.about {
+    background-color:#181717;
+}
+.about .container{
+    width:1100px;
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+
+}
+h1 {
+    color:white;
+}
+p{
+    color:darkgray;
+}
+.about__buttons {
+    display:flex;
+    gap:15px;
+}
+.about__button {
+    color:white;
+    background-color:rgb(70, 69, 69);
+    padding:10px 15px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size:15px;
+    
+}
+.about__button:hover {
+    color:darkgray;
+}
+.exhibitions {
+    background-color:#181717;
+}
+.exhibitions__container {
+    width:1100px;
+    margin:0 auto;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.exhibitions__images {
+    display:flex;
+    float:left;
+    width:100%;
+    gap:15px;
+    justify-content: center;
+}
+.exhibitions__img {
+    width:30%;
+    height:200px;
+    object-fit:cover;
+}
+.exhibitions__contents {
+    text-align:center;
+    background-color:black;
+    margin-top:15px;
+    margin-bottom:15px;
+    border-radius: 20px;
+    width:1100px;
+    box-sizing: border-box;
+    padding:20px;
+    
+
+}
+h2 {
+    color:white;
+    font-size:20px;
+}
+.opening__hours {
+    background-color:#181717;
+    width:100%;
+
+}
+.opening__hours .container {
+    width:1100px;
+    margin-top:0;
+    margin-bottom:0;
+    text-align: center;
+    padding:10px;
+    background-color: black;
+    border-radius: 20px;
+    box-sizing: border-box;
+}
+.opening__hourstime {
+    color:white;
+    background-color: black;
+    border-radius: 10px;
+    border:2px solid rgb(70, 69, 69) ;
+    margin-bottom: 10px;
+}
+footer {
+    background-color: #181717;
+    margin-top: 0;
+    padding:15px
+}
+footer .container{
+    background-color: black;
+    width:1100px;
+    border-radius: 20px;
+    padding:20px;
+    margin:0 auto;
+    
+    
+}
+.footer__contents{
+    margin-left:20px;
+    
+}
+.footer__adress{
+    color:white;
+    margin:0;
+}
+h1, h2, h3, p {
+    margin:0;
+    padding:0;
+}
