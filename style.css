@@ -48,12 +48,14 @@ body {
 }
 .hero {
     background-color:#181717;
+    padding-bottom: 20px;
 }
 .hero .container {
     width:1100px;
 }
 .about {
     background-color:#181717;
+    padding-bottom: 20px;
 }
 .about .container{
     width:1100px;
@@ -170,3 +172,39 @@ h1, h2, h3, p {
     margin:0;
     padding:0;
 }
+@media(max-width:768px){
+    .hero .container
+    .about .container
+    .exhibitions__container
+    .exhibitions__contents
+    .opening__hours .container
+    footer .container {
+        width:100%;
+    }
+    .header__logo{
+        width:80px;
+    }
+    .header__nav {
+        padding:8px 15px;
+    }
+    .about .container {
+        flex-direction:column;
+        text-align:center;
+    }
+    .exhibitions__imgages {
+        flex-direction:column;
+        align-items:center;
+
+    }
+    .exhibitions__img{
+        width:100%;
+        height:auto;
+    }
+    .opening__hourstime {
+        width:100%;
+        box-sizing:border-box;
+        font-size:14px;
+    }
+
+}
+
